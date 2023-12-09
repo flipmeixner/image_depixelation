@@ -10,5 +10,5 @@ Using image augmentation I doubled the amount of images using a little script, w
 
 In the file "model.py" you can find my final model architecture and some prior attempts. The final model architecture is definetely simpler than the others, simply because the more complex models did not perform well due to bad generalization.
 
-In the "model" folder you can find a trained model. This model was tested on unseen data and had a average RMSE Loss of 14 after training for about 30 hours. This means that on every pixel value that was recreated, with values from 0 to 255 my model was off by 14 on average. This got me in Top 30 of more than 250 students.
+In the "model" folder you can find a trained model. On the test data provided by our professors my model had a RMSE Loss of 14 after training for about 30 hours. This means that on every pixel value that was recreated, with values from 0 to 255 my model was off by 14 on average. This got me in Top 30 of more than 250 students.
 
